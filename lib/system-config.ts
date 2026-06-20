@@ -9,7 +9,7 @@ export const BACKEND_CONFIG = {
 } as const;
 
 export const BACKEND_URLS = {
-  LOGIN: `${BACKEND_CONFIG.BASE_URL}/v1/login`,
+  LOGIN: "/api/login",
   LOGIN_PREVIEW: `${BACKEND_CONFIG.BASE_URL}/v1/login/preview`,
   GET_PRODUCTS: (appId: string) =>
     `${BACKEND_CONFIG.BASE_URL}/v1/apps/${appId}/products`,
